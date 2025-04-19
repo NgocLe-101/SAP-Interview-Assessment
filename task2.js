@@ -17,5 +17,5 @@ function countOccurences(input) {
 // O(n) time to loop through the string and count the occurrences of each character.
 // Total time complexity: O(n) where n is the length of the input string
 
-console.log(countOccurences("sapstar")); // Output: { s: 1, a: 2, p: 1, t: 1, r: 1 }
+console.log(countOccurences("sapstar")); // Output: { s: 2, a: 2, p: 1, t: 1, r: 1 }
 console.log(countOccurences("aaabbbbcc")); // Output: { a: 3, b: 4, c: 2 }
